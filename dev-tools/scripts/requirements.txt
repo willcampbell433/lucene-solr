@@ -6,3 +6,4 @@ ics>=0.4
 console-menu>=0.5.1
 PyGithub
 jira
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
