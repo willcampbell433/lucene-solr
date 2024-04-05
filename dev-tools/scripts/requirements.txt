@@ -1,8 +1,12 @@
 six>=1.11.0
-Jinja2>=2.10.1
+Jinja2>=3.1.3
 PyYAML>=5.1
 holidays>=0.9.10
 ics>=0.4
 console-menu>=0.5.1
 PyGithub
 jira
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
